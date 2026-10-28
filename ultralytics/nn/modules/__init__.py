@@ -149,6 +149,7 @@ __all__ = (
     "Conv",
     "Conv2",
     "ConvTranspose",
+    "CBAM",
     "DWConv",
     "DWConvTranspose2d",
     "DeformableTransformerDecoder",
