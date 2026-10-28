@@ -13,7 +13,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from torch import nn
-
+from ultralytics.nn.modules.block import CBAM
 from ultralytics.nn.autobackend import check_class_names
 from ultralytics.nn.modules import (
     AIFI,
